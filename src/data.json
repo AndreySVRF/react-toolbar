@@ -1,0 +1,59 @@
+[
+  { "title": "Офисы", "icon": "account_balance", "link": "/" },
+  { "title": "Оборудование", "icon": "router", "link": "equipment" },
+  {
+    "title": "Phones",
+    "icon": "phone_iphone",
+    "children": [
+      { "title": "Телефоны Инфо" },
+      { "title": "Телефоны по ФИО" },
+      { "title": "Телефоны с переадресацией" }
+    ]
+  },
+  {
+    "title": "IP Planning",
+    "icon": "settings_input_component",
+    "children": [{ "title": "IPAM" }]
+  },
+  { "title": "Reports", "icon": "report" },
+  {
+    "title": "Phones reports",
+    "icon": "settings_phone",
+    "children": [
+      { "title": "По моделям" },
+      { "title": "По кластерам" },
+      { "title": "По неиспользуемым" },
+      { "title": "По Agent Licenses" }
+    ]
+  },
+  {
+    "title": "Tools",
+    "icon": "device_hub",
+    "children": [
+      { "title": "Поиск незарегистрированных телефонов" },
+      { "title": "CUCM маршрутизация" },
+      { "title": "Testing CORS requests" }
+    ]
+  },
+  "divider",
+  {
+    "title": "Справочники",
+    "icon": "info",
+    "children": [
+      { "title": "Рег.центры(mapping)" },
+      { "title": "Регионы" },
+      { "title": "Города" },
+      { "title": "Статусы офисов" },
+      "divider",
+      { "title": "Оборудование" },
+      { "title": "Типы портов" },
+      "divider",
+      { "title": "VRF" },
+      { "title": "Networks(Table)" },
+      { "title": "Networks(Tree)" },
+      "divider",
+      { "title": "Логи Hardware" },
+      { "title": "Логи Phones" }
+    ]
+  }
+]
